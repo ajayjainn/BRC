@@ -141,7 +141,7 @@ def main() -> None:
             line = (location + b"=" +
                    f"{min_val:.1f}/{mean_val:.1f}/{max_val:.1f}".encode("utf8") +
                    b"\n")
-            out_file.write(line)
+            out_file.write(line) 
     
     print(f"Results written to output.txt")
 
